@@ -11,23 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8bb1849-fca0-43d9-898f-6faeac8c6fa6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/fragments/ExercisesTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/fragments/FamousWorkoutTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/fragments/PersonalWorkoutTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/adapter/TabsPagerAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/exercises.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/famous_workout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/home.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/personal_workout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/v4.xml" />
-      <change type="DELETED" beforePath="D:\Christopher\AndroidWorkspace\FamousWorkout\res\layout\main.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FamousWorkout.iml" afterPath="$PROJECT_DIR$/FamousWorkout.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/Home.java" afterPath="$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="a8bb1849-fca0-43d9-898f-6faeac8c6fa6" name="Default" comment="ViewPager TabsContainer Added and Configured">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FamousWorkout.iws" />
@@ -104,7 +88,7 @@
       <file leaf-file-name="ExercisesTab.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/fragments/ExercisesTab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="60" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="799">
+            <state line="28" column="60" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="799">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,7 +110,7 @@
       <file leaf-file-name="TabsPagerAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/adapter/TabsPagerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="714">
+            <state line="21" column="19" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="714">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,10 +132,8 @@
       <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="43" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1734">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="45" column="43" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1717">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,6 +146,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Eefret" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -638,12 +625,17 @@
       <changelist id="a8bb1849-fca0-43d9-898f-6faeac8c6fa6" name="Default" comment="" />
       <created>1392213199065</created>
       <updated>1392213199065</updated>
-      <workItem from="1392213203228" duration="4809000" />
+      <workItem from="1392213203228" duration="4873000" />
     </task>
+    <task id="LOCAL-00001" summary="ViewPager TabsContainer Added and Configured">
+      <created>1392218085774</created>
+      <updated>1392218085774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4809000" />
+    <option name="totallyTimeSpent" value="4873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -670,7 +662,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47642276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47642276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -692,6 +684,10 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="ViewPager TabsContainer Added and Configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="ViewPager TabsContainer Added and Configured" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,10 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1734">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="45" column="43" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1717">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/fragments/ExercisesTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="60" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="799">
+        <state line="28" column="60" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="799">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -784,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kaissersoft/FamousWorkout/adapter/TabsPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="714">
+        <state line="21" column="19" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="714">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
