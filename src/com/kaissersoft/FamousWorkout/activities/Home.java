@@ -1,10 +1,11 @@
-package com.kaissersoft.FamousWorkout;
+package com.kaissersoft.FamousWorkout.activities;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import com.kaissersoft.FamousWorkout.R;
 import com.kaissersoft.FamousWorkout.adapter.TabsPagerAdapter;
 
 public class Home extends FragmentActivity implements ActionBar.TabListener {

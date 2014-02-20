@@ -2,16 +2,22 @@ package com.kaissersoft.FamousWorkout.pojos;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.util.Log;
 import com.kaissersoft.FamousWorkout.R;
 import com.kaissersoft.FamousWorkout.enums.MusclesEnum;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 
 /**
  * Created by Christopher Herrera on 2/19/14.
  */
 public class Muscle implements Serializable {
 
+    //==================================================================================================================
+    // CONSTANTS
+    //==================================================================================================================
+    private static final String TAG = "Muscle";
     //==================================================================================================================
     // CONSTRUCTORS
     //==================================================================================================================
@@ -22,8 +28,8 @@ public class Muscle implements Serializable {
         this.muscleNames = res.getStringArray(R.array.exercises_titles);
         this.musclesDescriptions = res.getStringArray(R.array.exercises_description);
 
-        this.muscleName = this.muscleNames[tipo.getIndex()];
-        this.muscleDescription = this.musclesDescriptions[tipo.getIndex()];
+        this.muscleName = this.muscleNames[tipo.getIndex() - 1];
+        this.muscleDescription = this.musclesDescriptions[tipo.getIndex() - 1];
         this.muscleIcon = getMuscleImage(tipo);
     }
 
@@ -83,6 +89,16 @@ public class Muscle implements Serializable {
             default:
                 return R.drawable.ic_launcher;
         }
+    }
+
+    public static ArrayList<Muscle> getAllMuscles(Context context) {
+        ArrayList<Muscle> muscleList = new ArrayList<Muscle>(12);
+
+        for (MusclesEnum muscle : MusclesEnum.values()) {
+            Log.d(TAG, String.valueOf(muscle.getIndex()));
+            muscleList.add(new Muscle(context, muscle));
+        }
+        return muscleList;
     }
 
 
